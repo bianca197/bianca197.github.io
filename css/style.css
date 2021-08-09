@@ -1,0 +1,620 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+}
+
+a :hover {
+    color: blue;
+}
+
+.head {
+    background-color: black;
+    min-width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    display: block;
+    overflow: visible;
+    top: 0px;
+    height: auto;
+}
+
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+}
+
+
+
+.white {    color: white;}
+
+.green {color: green;}
+
+.red {color: red;}
+
+.row {
+    flex-wrap: nowrap;
+    font-family: 'Work Sans';
+}
+
+.white,
+.green,
+.red {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.col .white {  padding-right: 0px;}
+
+header .container.head {
+      padding: 2px 50px 2px 52px;    
+}
+
+header>div>.container-fluid{ width:auto;}
+
+header>div:nth-child(2) {
+    max-width: 1830px;
+    margin: 0 auto;
+}
+
+body > header > div:nth-child(2) > div > div > div.col-sm-10{max-width: 1475px;}
+
+header .logo {
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    width: 373px;
+    height: 93px;
+    background-position: left;
+    margin-top: 20px;
+}
+
+.navbar { flex-wrap: nowrap;}
+
+.navbar>div, 
+body > header > div:nth-child(2) > div > div > div.col > div > div > nav > div,
+body > header > div:nth-child(2) > div > div > div.col-sm-9 > nav > div {justify-content:space-between;}
+
+body > main > nav > div > div > ul > li:nth-child(1) {padding-bottom:0;}
+
+body > main > div.row.margin1,
+body > main > nav > div > ul {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.disc {
+    color: black;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+}
+
+a { color:black;}
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+}
+
+h5 {text-align: left;}
+
+.carousel-control-prev span {
+    height: 60px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background-image: url(../img/slider-arr-right.png);
+    background-repeat: no-repeat;
+}
+
+.carousel-control-next span {
+    height: 60px;
+    background-image: url(../img/slider-arr-right.png);
+    background-repeat: no-repeat;
+}
+
+.carousel-item {
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: top;
+    height: 550px;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background:black;
+    opacity: 0.7;
+}
+
+.carousel-caption {
+    bottom: 180px;
+    padding-left: 0px;
+}
+
+.slider-btn {
+   bottom: 0px; 
+   right: 0px;
+   text-align: start;
+}
+
+.slider-btn .btn {
+    background-color: black;
+    border-radius: 5px;
+    columns: white;
+    color: white;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {  color: blue;}
+
+.menu a:visited {  color: grey;}
+
+.card {padding: 0px;}
+
+.card-img-top {padding-left: 30px;}
+
+.card-body .btn {
+    background-color: black;
+    border-radius: 5px;
+    columns: white;
+    color: white;
+}
+
+.card-text {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main>div {margin: 0px 195px;}
+main>div>div.container.menu {margin: 0;}
+main>div>div>div {font-size: 27px;}
+main div.container.menu a{padding:0px;}
+main>nav {
+    max-width: 1485px;
+    margin: 0 auto;
+}
+
+.d-grid >.btn-dark {
+    background-color: black;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.img2 {
+    width: 226px;
+    height: 228px;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+
+.banner {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1500px;
+}
+
+.d-grid {
+    padding-top: 30px;
+}
+
+.banner-btn {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    top: 90px;
+    right: 34px;
+}
+
+.banner-btn .btn {
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 110px;
+    left: 300px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.customer {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.review {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ececec;
+    margin: 0;
+}
+
+.reviews {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+}
+
+.txt {
+    font-size: 22px;
+    text-align: end;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    border-right-style: solid;
+    font-family: 'Work Sans';
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    padding-top: 25px;
+  }
+
+.main { padding-bottom: 50px;}
+
+.call {
+    background-color:#010140;
+    margin:auto;
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ship,
+.mail,
+.phone {
+    width: auto;
+    height: auto;
+    padding-left: 120px;
+}
+
+.font {
+    font-size: 20px;
+    color: white;
+    font-family: 'Work Sans';
+    margin-bottom: 0px;
+}
+
+.login ul, li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.bullet ul li::before {
+    content: "\2022";
+    color:yellow;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
+
+.bullet1 ul, li { font-size: 22px;}
+
+.space img {padding: inherit;}
+
+.login {
+    padding-bottom: 50px;
+    font-family: 'Work Sans';
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.account {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.font1 {
+    font-size: 22px;
+    font-family: 'Work Sans';
+    padding-left: 40px;
+}
+
+.footer1 {
+    background-color: black;
+    padding-bottom: 148px;
+    padding-left: 170px;
+    padding-right: 250px;
+}
+
+.blog {
+    padding-bottom: 30px;
+    font-family: 'Work Sans';
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.form-control {
+    width: 250px;
+    background-color: black;
+}
+
+.btn-warning {  color: white;}
+
+.sales {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.txt1 {
+    font-size: 22px;
+    color: white;
+}
+
+.card img{
+    max-width: 310px;
+}
+
+.card-body a {max-height: 40px;}
+
+.navbar.col div a {white-space: nowrap;}
+
+.review-box-container{
+    max-width: 300px;
+    display:flex;
+    margin:0 10px;
+}
+
+.review-box {
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.profile-img {
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.name-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-user strong {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-family: 'Raleway';
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comments {
+    font-size: 17px;
+    font-family: 'Raleway';
+}
+
+.navbar>.container-fluid {justify-content: left;}
+
+form>div>ul {justify-content: flex-end;}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.search-txt {
+    width: 550px;
+    font-size: 17px;
+    left: 15px;
+    padding-left: 50px;
+    height: 40px;
+}
+
+.search-box > input{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:lightgrey;
+    background: white;
+}
+
+ ::-webkit-input-placeholder {
+     color: black;
+     font-family: 'Raleway', sans-serif;
+     font-size: 17px;
+ }
+
+ .centerr { text-align: center;}
+
+ .left { text-align: right;}
+ 
+ .container.head .row{border-right-style: solid;}
+
+ .container.head .right {border-right-style: none;}
+
+ .bi {text-align: center;}
+
+ #navbarSupportedContent > ul > li:nth-child(3) > a {margin-right:0; }
+
+ body > header > div:nth-child(2) > div > div > div.col-sm-10 > nav > div > ul.navbar-nav.justify-content-end > li:nth-child(3) > a,
+ body > header > div:nth-child(2) > div > div > div.col-sm-10 > nav > div > ul.navbar-nav.justify-content-end > li:nth-child(3){
+     padding-right:0;
+ }
+
+  .navbar-nav > .margin {padding-left: 0px;}
+
+.navbar-nav > .deals {padding-right: 80px;}
+
+.navbar-nav > .serv {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navbar-nav > .sell {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 20px; 
+    height: 20px; 
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    opacity: ;
+    transition: opacity .6s ease;
+    border-radius: 100%; // 
+}
+
+.h5,
+.btn {font-family: 'Raleway', sans-serif;}
+
+.h5 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.btn {font-size: 17px;}
+
+.active,
+.disabled {
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+}
+
+.active { color:#2e5b82;}
+
+.margin1 {
+    margin-left: 195px;
+    margin-right: 195px;
+}
+
+.info {
+    width: 23px;
+    height: 23px;
+   margin: 10px;
+}
+
+.stock {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.gr {color: green;}
+
+.re {color: red;}
+
+.bl {color: blue;}
+
+.card-title,
+.card-text {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.price {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-left: ;
+}
+
+.carousel-indicators {bottom: 30px;}
+
+.ban {padding-right: 25px;}
+
+.quotes {padding-left: 190px;}
+
+.rew {padding-left: 40px;}
+
+.main1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 23.5px;
+}
+
+.sigla {text-align: center;}
+
+.ne {padding-left: 0px;}
+
+.foot {padding-left: 20px;}
